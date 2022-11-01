@@ -1,1 +1,13 @@
-# Objetivos
+### Objetivos
+- [ ] Design:
+  - [ ] Cores
+  - [ ] Tipografia
+- [ ] Layout:
+- [ ] Páginas
+  - [ ] Sobre
+  - [ ] Produtos
+  - [ ] Pesquisa
+- [ ] Componentes:
+  - [ ] Header
+  - [ ] Footer
+  - [ ] Aside
