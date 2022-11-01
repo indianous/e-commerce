@@ -1,6 +1,6 @@
 ### Objetivos
 - [ ] Design:
-  - [ ] Cores
+  - [x] Cores
   - [ ] Tipografia
 - [ ] Layout:
 - [ ] Páginas
