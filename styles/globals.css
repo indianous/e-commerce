@@ -1,26 +1,24 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+:root{
+  /* Cores */
+  --primary-color: #E0EFDE;
+  --secondary-color: #49416D;
+  --success-color: #B3F2DD;
+  --cancel-color: #E08D79;
+  --alert-coolor: #A002DD;
+
+  /* Tipografia */
+  --primary-font: 'Muli';
+  --secondary-font: 'Quicksand'
+}
+*{
+  padding: 0px;
+  margin: 0px;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  color: var(--secondary-color);
+  font-family: var(--primary-font), sans-serif;
+  background-color: var(--primary-color);
 }
