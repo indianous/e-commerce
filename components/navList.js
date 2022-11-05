@@ -5,7 +5,7 @@ export default function NavList({pages}) {
     // const list = pages;
     const listItems = list.map((item) => {
         return (
-            <li style={{display: 'inline-block', padding: '10px'}} key={item.id.toString()}>
+            <li className='nav-list-item' key={item.id.toString()}>
                 <a href={item.link}>{item.name}</a>
             </li>
         );
@@ -13,8 +13,8 @@ export default function NavList({pages}) {
     
   return (
     <nav>
-        <a href='./'>Home</a>
-        <ul style={{listStyleType: 'none', display: 'block'}}>
+        <a href='./' className='nav-item'><span>Home</span></a>
+        <ul className='nav-item'>
             {listItems}
         </ul>
     </nav>
